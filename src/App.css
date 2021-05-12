@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+   
+    background-image: url("https://oboi.ws/wallpapers/25_11754_oboi_chernoe_i_zheltoe_1920x1200.jpg");
+ 
+  }
+
+  @keyframes gradinet {
+    0%{
+      background-position: 0 50%;  
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 114rem;
+    margin: 0 auto;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .container {
+      padding: 0 3rem;
+    }
+  }
